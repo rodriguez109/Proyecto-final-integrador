@@ -1,0 +1,211 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+}
+
+img{
+    width: 250px;
+    height: 250px;
+    border-color: black;
+    border-radius: 10px;
+  }
+
+.contenedor{
+    color: black;
+    text-decoration: none;
+}
+
+.contenedor ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+.contenedor li{
+    display: inline;
+    text-align: center;
+    margin: 0 10px 0 0;
+}
+
+.contenedor a:hover{
+    background-color: #333333;
+    color: #ffffff;
+}
+
+header{
+    padding: 55px;
+    background: #833ab4;  
+    background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  
+    background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); 
+    top: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+}
+footer{
+    padding: 10px;
+    background: #833ab4;  
+    background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  
+    background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+    justify-content: center;
+    text-align: center;
+    font-size: small;
+    color:#f0f0f0;
+}
+nav{
+    padding: 20px;
+    background: #FFEFBA;  
+    background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA); 
+    background: linear-gradient(to right, #FFFFFF, #FFEFBA);
+    position: sticky;
+    top: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #2980B9;  
+    background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);  
+    background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);
+}
+
+section ul {
+    list-style-type: none;
+    text-align:left;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+section li{
+    font-size: large;
+    padding: 10px;
+}
+
+section h2 {
+    text-align: center;
+    font-size: x-large;
+    padding: 10px;
+    font-style: italic;
+}
+
+section#barbara{
+    height: 70vh;
+}
+
+section#barbara h1{
+    font-size: xx-large;
+    padding: 10px;
+}
+
+.formulario_contacto body {
+	background-color: #9b59b6;
+	font-family: 'Open Sans', sans-serif;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+	margin: 0;
+}
+
+.formulario_contacto {
+	background-color: #fff;
+	border-radius: 5px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+	overflow: hidden;
+	width: 400px;
+	max-width: 100%;
+    height:fit-content;
+    margin: 80px auto;
+    padding-top: 30px;
+    padding-bottom: 20px;  
+}
+
+.formulario_contacto h2{
+    text-align: center;
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+.formulario_contacto h3{
+    text-align: center;
+    font-weight: bolder;
+    font-size: large;
+}
+
+.form {
+	padding: 30px 40px;	
+}
+
+.form-control {
+	margin-bottom: 10px;
+	padding-bottom: 20px;
+	position: relative;
+}
+
+.form-control label {
+	display: inline-block;
+	margin-bottom: 5px;
+}
+
+.form-control input {
+	border: 2px solid #f0f0f0;
+	border-radius: 4px;
+	display: block;
+	font-family: inherit;
+	font-size: 14px;
+	padding: 10px;
+	width: 100%;
+}
+
+.form-control input:focus {
+	outline: 0;
+	border-color: #777;
+}
+
+.form-control.success input {
+	border-color: #2ecc71;
+}
+
+.form-control.error input {
+	border-color: #e74c3c;
+}
+
+.form-control small {
+	color: #e74c3c;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	visibility: hidden;
+}
+
+.form-control.error small {
+	visibility: visible;
+}
+
+.form button {
+	background-color: #8e44ad;
+	border: 2px solid #8e44ad;
+	border-radius: 4px;
+	color: #fff;
+	display: block;
+	font-family: inherit;
+	font-size: 16px;
+	padding: 10px;
+	margin-top: 20px;
+	width: 100%;
+}
+
+@media only screen and (max-width: 575px){
+    section ul {
+        padding-left: 50px;
+        padding-right: 50px;
+        width: 100%;
+    }
+}
